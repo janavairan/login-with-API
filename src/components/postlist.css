@@ -1,0 +1,7 @@
+table tr button {
+    display: none !important;
+}
+
+table tr :hover button {
+    display: inline !important;
+}

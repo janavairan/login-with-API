@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+
+.container {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body_container {
+    margin: 50px 100px;
+}
+
+.input-field {
+    display: flex;
+}
+
+.input-field Input {
+    background-color: transparent;
+    width: 200px !important;
+    outline: none;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+.input-field Button {
+    width: 100px;
+    height: 38px;
+
+}
+
+.modal_item {
+    margin: 0px;
+}
+
+.modal_input {
+    background-color: #cfcece;
+    border-radius: 7px;
+    margin-top: 5px;
+}
+
+.modal_input_img {
+    margin: 5px 0px;
+    background-color: #cfcece;
+    padding: 4px;
+    border-radius: 6px;
+
+}
+
+
+.img {
+    width: 100% !important;
+    margin: 5px 0px;
+    background-color: #cfcece;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+
+
+.modal_input Input {
+    width: 100% !important;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.modal_button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal_button Button {
+    width: 75px;
+    margin: 5px;
+}
+
+.modal_input_content textarea {
+    height: 100px;
+    background-color: #cfcece;
+}

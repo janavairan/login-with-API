@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.body-container {
+    padding: 30px 70px;
+    background-color: rgba(239, 242, 242, 0.622);
+    display: flex !important;
+    height: 595px;
+}
+
+
+
+.blog_container {
+    border-radius: 10px;
+    width: 350px !important;
+    background-color: white;
+    padding: 10px;
+    height: 540px;
+}
+
+.publish_content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 5px;
+}
+
+.blog_input {
+    padding: 4px 11px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    width: 170px !important;
+    background-color: rgb(239, 242, 242);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d9d9d9;
+    border-radius: 6px;
+    transition: all 0.2s;
+    margin-top: -5px;
+}
+
+.content_details {
+    padding: 10px;
+    display: flex;
+}
+
+.content_details:hover {
+    background-color: rgba(227, 219, 219, 0.273);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.img_blog {
+    width: 100px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.content_head {
+    font-size: 16px;
+    padding-bottom: 3px;
+
+}
+
+.upload {
+    font-size: 12px;
+    color: rgb(144, 145, 146);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.preview {
+    width: 880px !important;
+    margin-left: 180px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    height: 540px;
+
+
+}
+
+.content_details_img {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+
+.profile_blog {
+    display: flex;
+    align-items: center;
+}
+
+.profile_blog h3 {
+    color: rgb(56 57 56);
+}
+
+.profile_blog p {
+    color: rgb(144, 145, 146);
+}
+
+.img_preview img {
+    width: 700px;
+    height: 325px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.nocontent {
+    width: 880px;
+    height: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 180px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    color: rgb(51, 49, 49);
+
+}
+
+.preview_content h2 {
+    color: rgb(56 57 56);
+    margin-bottom: 10px;
+}
+
+.preview_content p {
+    color: rgb(63, 63, 63);
+    font-size: 14px;
+}
